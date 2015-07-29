@@ -13,11 +13,22 @@ exports.load = function(req, res, next, quizId) {
 };
 
 // GET /quizes
-exports.index = function(req, res) {
-  models.Quiz.findAll().then(function(quizes) {
-  	res.render('quizes/index.ejs', { quizes: quizes});
-  }
- 	).catch(function(error) { next(error);})
+exports.index = function(req,res){
+	var busqueda='';
+
+	if(req.query.search)
+	{
+		busqueda='%'+req.query.search+'%';
+		busqueda=busqueda.replace(" ","%");
+
+		models.Quiz.findAll({where:["pregunta like ?",busqueda]}).then(function(quizes){
+			res.render('quizes/index',{quizes:quizes,errors:[]});
+		})
+	}else{
+		models.Quiz.findAll().then(function(quizes){
+			res.render('quizes/index',{quizes:quizes,errors:[]});
+		})
+	}
 };
 
 // GET /quizes/:id

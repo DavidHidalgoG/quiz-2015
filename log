@@ -1,0 +1,101 @@
+2015-07-29T12:26:54.762124+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-29T12:26:54.762125+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-29T12:26:54.762126+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/www:2:13)
+2015-07-29T12:26:54.762127+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-29T12:26:54.762128+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-29T12:26:54.762131+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-29T12:26:54.762129+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-29T12:26:54.762132+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2015-07-29T12:26:54.759084+00:00 app[web.1]: module.js:340
+2015-07-29T12:26:55.466966+00:00 heroku[web.1]: Process exited with status 8
+2015-07-29T12:26:55.484917+00:00 heroku[web.1]: State changed from starting to crashed
+2015-07-29T12:27:00.365166+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=c08502cb-2fff-4a5c-a0de-bf66e89c1b3e fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:27:01.833629+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dhgquiz2015.herokuapp.com request_id=125debb8-c2e0-4c07-8525-787adf17475a fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:27:02.000060+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=dhgquiz2015.herokuapp.com request_id=8ef660b8-5486-4f90-b991-4182f978e7fa fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:27:07.241809+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=7611b769-8fd1-4aba-be0a-949829efe85e fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:27:36.641877+00:00 heroku[api]: Release v65 created by d.hidalgogonzalez@gmail.com
+2015-07-29T12:27:36.641877+00:00 heroku[api]: Remove HEROKU_POSTGRESQL_AQUA_URL config vars by d.hidalgogonzalez@gmail.com
+2015-07-29T12:27:37.133993+00:00 heroku[web.1]: State changed from crashed to starting
+2015-07-29T12:27:42.126430+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-07-29T12:27:43.450250+00:00 app[web.1]:           ^
+2015-07-29T12:27:43.449615+00:00 app[web.1]: 
+2015-07-29T12:27:43.453387+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-29T12:27:43.453391+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-29T12:27:43.450239+00:00 app[web.1]:     throw err;
+2015-07-29T12:27:43.453381+00:00 app[web.1]: Error: Cannot find module 'debug'
+2015-07-29T12:27:43.453384+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2015-07-29T12:27:43.453392+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-29T12:27:43.453386+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2015-07-29T12:27:43.453396+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2015-07-29T12:27:43.453388+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-29T12:27:43.453390+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/www:2:13)
+2015-07-29T12:27:43.453394+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-29T12:27:43.453395+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-29T12:27:43.449999+00:00 app[web.1]: module.js:340
+2015-07-29T12:27:44.148508+00:00 heroku[web.1]: Process exited with status 8
+2015-07-29T12:27:44.158563+00:00 heroku[web.1]: State changed from starting to crashed
+2015-07-29T12:27:49.764736+00:00 heroku[web.1]: State changed from crashed to starting
+2015-07-29T12:27:58.549352+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-07-29T12:28:00.303977+00:00 app[web.1]: module.js:340
+2015-07-29T12:28:00.304236+00:00 app[web.1]:     throw err;
+2015-07-29T12:28:00.303641+00:00 app[web.1]: 
+2015-07-29T12:28:00.304248+00:00 app[web.1]:           ^
+2015-07-29T12:28:00.307432+00:00 app[web.1]: Error: Cannot find module 'debug'
+2015-07-29T12:28:00.307434+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2015-07-29T12:28:00.307436+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2015-07-29T12:28:00.307437+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-29T12:28:00.307438+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-29T12:28:00.307440+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/www:2:13)
+2015-07-29T12:28:00.307441+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-29T12:28:00.307442+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-29T12:28:00.307443+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-29T12:28:00.307445+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-29T12:28:00.307446+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2015-07-29T12:28:01.149333+00:00 heroku[web.1]: Process exited with status 8
+2015-07-29T12:28:01.160881+00:00 heroku[web.1]: State changed from starting to crashed
+2015-07-29T12:29:52.936507+00:00 heroku[web.1]: State changed from crashed to starting
+2015-07-29T12:29:57.434919+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-07-29T12:29:59.931953+00:00 app[web.1]: 
+2015-07-29T12:29:59.938150+00:00 app[web.1]:     throw err;
+2015-07-29T12:29:59.938266+00:00 app[web.1]:           ^
+2015-07-29T12:29:59.951490+00:00 app[web.1]: Error: Cannot find module 'debug'
+2015-07-29T12:29:59.951494+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2015-07-29T12:29:59.951496+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2015-07-29T12:29:59.951498+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-29T12:29:59.951500+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/www:2:13)
+2015-07-29T12:29:59.951497+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-29T12:29:59.951502+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-29T12:29:59.951501+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-29T12:29:59.951504+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-29T12:29:59.951505+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-29T12:29:59.951506+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2015-07-29T12:29:59.937321+00:00 app[web.1]: module.js:340
+2015-07-29T12:30:01.075788+00:00 heroku[web.1]: Process exited with status 8
+2015-07-29T12:30:01.091573+00:00 heroku[web.1]: State changed from starting to crashed
+2015-07-29T12:30:52.200376+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=71d5fad9-8cdc-4829-a163-a4fd9536931b fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:30:53.549471+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=bca9ce44-200d-4ff2-b392-f229893e3e65 fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:30:54.654292+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=f92157f9-a035-4049-bd71-7928e1b5c9f8 fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:30:56.579427+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dhgquiz2015.herokuapp.com request_id=8cdd1978-55e5-4bbf-b2e1-e3dbd25bb35d fwd="95.122.42.245" dyno= connect= service= status=503 bytes=
+2015-07-29T12:31:04.752370+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-07-29T12:31:04.752362+00:00 heroku[slug-compiler]: Slug compilation started
+2015-07-29T12:31:04.698584+00:00 heroku[api]: Deploy 6075bd3 by d.hidalgogonzalez@gmail.com
+2015-07-29T12:31:04.698584+00:00 heroku[api]: Release v66 created by d.hidalgogonzalez@gmail.com
+2015-07-29T12:31:05.194816+00:00 heroku[web.1]: State changed from crashed to starting
+2015-07-29T12:31:09.836758+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-07-29T12:31:11.576953+00:00 app[web.1]: module.js:340
+2015-07-29T12:31:11.576597+00:00 app[web.1]: 
+2015-07-29T12:31:11.577193+00:00 app[web.1]:     throw err;
+2015-07-29T12:31:11.577220+00:00 app[web.1]:           ^
+2015-07-29T12:31:11.580379+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2015-07-29T12:31:11.580377+00:00 app[web.1]: Error: Cannot find module 'debug'
+2015-07-29T12:31:11.580381+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2015-07-29T12:31:11.580382+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-29T12:31:11.580384+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-29T12:31:11.580386+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-29T12:31:11.580385+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/www:2:13)
+2015-07-29T12:31:11.580387+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-29T12:31:11.580388+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-29T12:31:11.580390+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-29T12:31:11.580391+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2015-07-29T12:31:12.290840+00:00 heroku[web.1]: Process exited with status 8
+2015-07-29T12:31:12.298688+00:00 heroku[web.1]: State changed from starting to crashed

@@ -25,6 +25,8 @@
     "pg": "~4.4.0",
     "pg-hstore": "~2.3.2",
     "debug": "~2.2.0",
-    "express-session": "~1.0.3"
+    "express-session": "~1.0.3",
+    "https": "~1.0.0",
+    "fs": "0.0.2"
   }
 }

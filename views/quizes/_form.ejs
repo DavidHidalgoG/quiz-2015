@@ -1,6 +1,30 @@
+
+<label or="tema">Tema</label>
+<select id="tema" name="quiz[tema]">
+<% 
+temas.forEach(function(tema)
+   {
+   		if(tema === quiz.tema)
+   		{
+%>
+  			<option selected><%= tema %></option>
+<%
+   		}
+   		else
+   		{
+%>
+   			<option><%= tema %></option>
+<%
+   		}
+
+   }
+);
+%>
+</select><p>
 <label for="preg" class="rem">Pregunta:</label>
 <input type="text" id="preg" name="quiz[pregunta]" value="<%= quiz.pregunta %>"/> <p>
 <label for="resp" class="rem">Respuesta:</label>
 <input type="text" id="resp" name="quiz[respuesta]" value="<%= quiz.respuesta %>"/> <p>
+<label for="tema" class="rem">Tema:</label>
 <a href="/quizes"><button type="button">Cancelar</button></a>
 <input type="submit" value="Salvar">
